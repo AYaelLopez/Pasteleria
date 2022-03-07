@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Pasteleria">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="Logo" src="images/pasteles de paz crop.png" alt="Pasteles de Paz">
+    </header>
+
+    <section class="menu">
+        <h2>Menú</h2>
+        <h3>Base del bizcocho</h3>
+
+        <div class="container">
+            <div class="item">
+                <img class="imgtable" src="images/pastel de canela.jpg" alt="pastel de canela">
+                <p class="nombre">Pastel de canela</p>
+                <p class="precio">$200</p>
+            </div>
+            <div class="item">
+                <img class="imgtable" src="images/pastel-de-vainilla.jpg" alt="pastel de vainilla">
+                <p class="nombre">Pastel de vainilla</p>
+                <p class="precio">$145</p>
+            </div>
+            <div class="item">
+                <img class="imgtable" src="images/pastel de cajeta.jpg" alt="pastel de cajeta">
+                <p class="nombre">Pastel de cajeta</p>
+                <p class="precio">$190</p>
+            </div>
+            <div class="item">
+                <img class="imgtable" src="images/3 leches.jpg" alt="pastel de 3 leches">
+                <p class="nombre">Pastel de 3 leches</p>
+                <p class="precio">$200</p>
+            </div>
+            <div class="item">
+                <img class="imgtable" src="images/pastel de chocolate.jpg" alt="pastel de chocolate">
+                <p class="nombre">Pastel de Chocolate</p>
+                <p class="precio">$170</p>
+            </div>
+            <div class="item">
+                <img class="imgtable" src="images/marmoleado.jpg" alt="pastel marmoleado">
+                <p class="nombre">Marmoleado</p>
+                <p class="precio">$180</p>
+            </div>
+
+        </div>
+
+        <h3>Cobertura</h3>
+        <p>Crema Chantilly................................$45</p>
+        <p>Crema batida con queso crema...................$75</p>
+        <p>Fondant........................................$80</p>
+        <p>Cobertura de espejo............................$45</p>
+        <p>Chocolate......................................$50</p>
+        
+        <h3>Adornos</h3>
+        <p>Figuras de Chantilly...........................$20</p>
+        <p>Fresas.........................................$35</p>
+        <p>Fruta con glaseado.............................$40</p>
+        <p>Nombre.........................................$0</p>
+        
+    </section> 
+
+    <!--Pedido-->
+    <section class="pedido">
+        <h2 class="pedido">Hacer pedido</h2>
+        <h3>Base del bizcocho</h3>
+        <label for="cir1">Pastel de canela</label>
+        <input type="radio" id="cir1" name="cir1"><br>
+
+        <label for="cir2">Pastel de vainilla</label>
+        <input type="radio" id="cir2" name="cir1"><br>
+
+        <label for="cir3">Pastel de cajeta</label>
+        <input type="radio" id="cir3" name="cir1"><br>
+
+        <label for="cir4">Pastel de 3 leches</label>
+        <input type="radio" id="cir4" name="cir1"><br>
+
+        <label for="cir6">Pastel de chocolate</label>
+        <input type="radio" id="cir6" name="cir1"><br>
+
+        <label for="cir7">Marmoleado</label>
+        <input type="radio" id="cir7" name="cir1"><br>
+
+        <h3>Cobertura</h3>
+        <label for="box1">Crema Chantilly</label>
+        <input type="checkbox" id="box1" name="box1"><br>
+        <label for="box2">Cema batida con queso crema</label>
+        <input type="checkbox" id="box2" name="box2"><br>
+        <label for="box3">Fondant</label>
+        <input type="checkbox" id="box3" name="box3"><br>
+        <label for="box4">Cobertura de espejo</label>
+        <input type="checkbox" id="box4" name="box4"><br>
+        <label for="box5">Chocolate</label>
+        <input type="checkbox" id="box5" name="box5"><br>
+
+        <h3>Adornos</h3>
+        <label for="box6">Figuras deChantilly</label>
+        <input type="checkbox" id="box6" name="box6"><br>
+        <label for="box7">Fresas</label>
+        <input type="checkbox" id="box7" name="box7"><br>
+        <label for="box8">Fruta con glaseado</label>
+        <input type="checkbox" id="box8" name="box8"><br>
+        <label for="box9">Nombre</label>
+        <input type="checkbox" id="box9" name="box9"><br>
+
+        <h3>Datos de contacto</h3>
+        <label for="nombre">Nombre:</label><br>
+        <input class="txt" type="text" id="nombre" name="nombre"><br>
+        <label for="fecha">Fecha de entrega:</label><br>
+        <input class="txt" type="datetime-local" id="fecha" name="fecha"><br>
+        <label for="tel">Telefono:</label><br>
+        <input class="txt" type="tel" id="tel" name="tel" maxlength="10"><br>
+        <label for="correo">Correo electronico:</label><br>
+        <input class="txt" type="email" id="correo" name="correo"><br>
+        <label for="descrip">Descripción del pastel ó instrcciones adicionales:</label><br>
+        <form>
+            <textarea name="descrip" id="descrip"></textarea>
+        </form>
+        <br>
+        <input type="submit" id="enviar" name="enviar"><br>
+    </section>
+
+    <footer>
+        <p>Dirección: Los arboles #5, San Pablo, Edo. Mex.</p>
+        <p>Telefono: 56218921845</p>
+        <p>Horario: 10:00 am - 4:00 pm</p>
+    </footer>
+
+</body>
+</html>
+
+

@@ -1,0 +1,81 @@
+html{
+    background-color: #f9f7dc;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.Logo{
+    display: block;
+    margin: 0 auto;
+    height: 180px;
+}
+.menu{
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    border-radius: 1%;
+
+}
+
+/*Contenedor para los elementos*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    height: auto;
+}
+
+.item {
+    order: 3;
+    padding: 30px;
+    margin:1px;
+    width: 20%;
+  }
+
+  .nombre, .precio{
+      text-align: left;
+  }
+
+  .imgtable{
+    width: 100%;
+    height: auto;
+  }
+
+section.pedido, .pastelero{
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 1%;
+}
+h2.pedido,h2{
+    font-size: 46px;
+}
+
+.txt{
+    margin: 10px;
+    height: 20px;
+}
+
+textarea{
+    margin: 10px;
+}
+
+textarea{
+    width: 97%;
+    height: 40px;
+    box-sizing: border-box;
+    resize:none;
+}
+
+footer{
+    align-content: center;
+    text-align: center;
+}
+
+/*Stilo del pastelero*/
+table{
+    width: 100%;
+}
